@@ -53,6 +53,12 @@ body {
   
   }
   
+    .nav-link {
+      color: #e8eaed;
+      font-family: 'Montserrat', sans-serif;
+      text-align:center;
+    }
+  
   ::-moz-selection {
     background-color: #0f0b3a;
     color: #FFF;
