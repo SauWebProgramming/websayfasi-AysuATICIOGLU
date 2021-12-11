@@ -41,15 +41,15 @@ body {
   }
   
   a {
-    color: #11151c;
+    color: #000000;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
     text-decoration: none;
   }
   
   a:hover, a:focus {
-    color: #701b1b;
     
+    color: #701b1b;
     
   
   }
@@ -80,7 +80,11 @@ body {
       font-weight: bold;
     
     }
-  
+    .nav-link:hover {
+      color: #917979;
+    
+    
+    }
   ::-moz-selection {
     background-color: 701b1b;
     color: #FFF;
