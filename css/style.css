@@ -52,11 +52,30 @@ body {
     
   
   }
+  .logo{
+    
+   
+    width: 100px;
+    height: 100px;
+  
+   
+
+  }
+  .yazi{
+   padding-top: 10px;
+    width: 100px;
+    height: 50px;
+  
+
+  }
+  .navbar{
+    background-color:#701b1b;
+  }
   
     .nav-link {
       color: #e8eaed;
       font-family: 'Montserrat', sans-serif;
-      text-align:center;
+    
     }
   
   ::-moz-selection {
@@ -178,7 +197,7 @@ body {
   
   .post .post-body {
     position: relative;
-    margin: -50px 0px 0px 3%;
+    margin: -napx 0px 0px 3%;
     padding: 2%;
     background: #fff;
     z-index: 10;
@@ -214,9 +233,14 @@ body {
   .post .post-title.title-lg {
     font-size: 25.629px;
   }
+  element.style {
+    width: 387px;
+    height: 530px;
+}
   
   .post .post-category {
     margin-bottom: 10px;
+    z-index: 10;
   }
   
   .post-category a {
