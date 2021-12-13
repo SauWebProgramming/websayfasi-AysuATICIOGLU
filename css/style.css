@@ -33,11 +33,18 @@ body {
     font-size: 20px;
     color: #e8eaed;
   }
-  
+  .bread {
+    font-size: 17px;
+    color: black;
+    font-family: 'Muli', sans-serif;
+    
 
-  
+  }
+
   p {
     margin: 0px 0px 20px;
+    color: #8c95a3;
+    font-family: 'Montserrat', sans-serif;
   }
   
   a {
@@ -86,7 +93,7 @@ body {
     
     }
   ::-moz-selection {
-    background-color: 701b1b;
+    background-color: #701b1b;
     color: #FFF;
   }
   
@@ -154,37 +161,7 @@ body {
   }
   
  
-  .page-header {
-    position: relative;
-    margin: 0;
-    padding-top: 120px;
-    padding-bottom: 80px;
-    background-color: #1b1c1e;
-  }
-  
-  #post-header {
-    padding-top: 240px;
-    padding-bottom: 80px;
-  }
-  
-  .page-header .page-header-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .page-header .page-header-bg:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 28, 30, 0)), color-stop(90%, rgba(27, 28, 30, 0.8)));
-    background: linear-gradient(180deg, rgba(27, 28, 30, 0) 0%, rgba(27, 28, 30, 0.8) 90%);
-  }
+
   
   .page-header h1 {
     font-size: 41.053px;
@@ -292,9 +269,21 @@ body {
   .post-meta li:last-child:after {
     display: none;
   }
+  .post.post-row:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
   
-
-
+  .post.post-row .post-img {
+    width: 40%;
+    float: left;
+  }
+  
+  .post.post-row .post-body {
+    margin: 0px 0px 0px calc(40% + 30px);
+    padding: 0;
+  }
   
   #footer {
     margin-top: 40px;
@@ -312,13 +301,10 @@ body {
   }
   
   #footer a:hover, #footer a:focus {
-    color: 701b1b;
+    color: #74031b;
   }
   
-  .footer-widget {
-    margin-bottom: 30px;
-  }
-  
+
   .footer-widget .footer-title {
     color: #fff;
     font-size: 14px;
@@ -326,14 +312,12 @@ body {
   }
   
   .footer-logo {
-    margin-bottom: 30px;
+ 
+    margin-left: -80px;
+    margin-top:-15px;
   }
   
-  .footer-logo .logo {
-    display: inline-block;
-    line-height: 70px;
-    height: 70px;
-  }
+
   
   .footer-bottom {
     margin-top: 30px;
@@ -342,12 +326,37 @@ body {
   }
   
   .footer-nav {
-    text-align: right;
+    text-align: left;
+    color: white;
   }
+  .footer-nav li a {
+  
+    color: #97989b;
+  }
+  .footer-nav li a:hover {
+  
+    color:#701b1b;
+  }
+  
+  .footer-copyright p {
+    color: #97989b;
+  
+  }
+  
+
   
   .footer-nav li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 5px;
   }
-  
+  .buton{
+    color: white;
+    background-color:#701b1b;
+  }
+  .buton:hover{
+    color: white;
+    background-color:#946565;
+  }
+
+
  
