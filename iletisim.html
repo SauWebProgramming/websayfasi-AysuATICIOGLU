@@ -1,50 +1,70 @@
-
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Aysu Atıcıoğlu">
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Haber, Haberler, Son Dakika Haberler | Haber" />
+    <meta name="keywords"
+        content="son dakika, haber, politika, spor, futbol,   sağlık, dünya,  ekonomi, yorum, , bülten,  hava durumu, yaşam, güncel,heber" />
+    <link rel="icon" type="image/png" href="img/logo4.png" sizes="144x144">
+    <title>HABER</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+   
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled">Disabled</a>
+    <header id="header" class="fixed-top">
+
+        <nav class="navbar navbar-expand-sm  ">
+            <div class="container">
+                <img src="img/logo4.png" width="100" height="20" class="logo" alt="...">
+                <img src="img/yazi.png" width="100" height="50" class="yazi" alt="...">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gundem.html">Gündem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ekonomi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dünya</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav>
-    <div class="container mt-5">
+        </nav>
+
+    </header>
+    <section>
+    <div class="container " style="margin-top: 80px;">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 bread">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Anasayfa</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">İletişim</li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="iletisim.html" >İletişim</a></li>
                     </ol>
                 </nav>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <div class="col-md-8">
-                <h2>İLETİŞİM</h2>
+                <h1 class="text-uppercase">İLETİŞİM</h1>
 
                 <form action="https://formspree.io/f/xqknzvqj" method="POST">
                     <div class="mb-3">
@@ -57,7 +77,7 @@
                         <textarea class="form-control" name="mesaj" id="mesaj" id="exampleFormControlTextarea1" rows="7" cols="10" placeholder="MESAJ"></textarea>
                     </div>
                     <div class="mb-3">
-                        <button type="submit" name="gonder" id="gonder" class="btn btn-primary">GÖNDER</button>
+                        <button type="submit" name="gonder" id="gonder"  class="buton btn">GÖNDER</button>
                     </div>
                 </form>
             </div>
@@ -67,29 +87,48 @@
 
             </div>
 
-                <form action="/action_page.php">
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="AD SOYAD">
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-POSTA">
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="MESAJ"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <button type="submit" class="btn btn-primary">GÖNDER</button>
-                    </div>
-                </form>
+           
             </div>
-            <div class="col-md-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.635064557599!2d30.332731!3d40.742033!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7996fa884f94c03!2sSakarya%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1638388956295!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+          
 
         </div>
     </div>
-    <div class="mt-5 p-4 bg-dark text-white text-center">
-        <p>Footer</p>
+</section>
+<footer>
+    <div class="mt-5 p-2 bg-dark text-white text-center">
+
+        <div class="container">
+            <div class="footer-bottom row">
+                <div class="col-md-4 float-left">
+                    <ul class="footer-logo" >
+                        <li> <img src="img/logo4.png"  class="logo" alt="...">
+                         <img class="yazi"  src="img/yazi.png"  class="logo"
+                                alt="..."></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4 ">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="hakkinda.html">Hakkımızda</a></li>
+                        <li><a href="iletisim.html">İletisim</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="footer-copyright">
+                        <p>
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
+</footer>
+
 </body>
 </html>
